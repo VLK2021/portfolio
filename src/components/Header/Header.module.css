@@ -7,6 +7,7 @@
     border-radius: 1rem;
     justify-content: space-between;
     padding: 0.7rem 1rem;
+    z-index: 999;
 }
 
 .btn {
@@ -21,27 +22,26 @@
     cursor: pointer;
 }
 
-.btn:hover, .select:hover{
+.select:hover{
     border: 3px solid var(--var-color-text-header-btn);
     color: var(--var-color-text-header-btn);
 }
-
-/*.name{*/
-/*    color: var(--var-color-text);*/
-/*    font-weight: bold;*/
-/*    font-size: 1.5rem;*/
-/*}*/
+.btn:hover{
+    border: 3px solid var(--var-color-text-header-btn);
+    color: var(--var-color-text);
+}
 
 .select {
     width: 3.5rem;
     height: 2rem;
     border-radius: 1rem;
-    background: var(--var-bg);
+    background: var(--var-bg-header);
     color: var(--var-color-text);
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.9rem;
     border: 1px solid var(--var-color-text-header-btn);
     cursor: pointer;
+    padding: 0 0.3rem;
 }
 
 .option {

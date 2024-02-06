@@ -5,7 +5,7 @@
 }
 
 :root{
-    --var-bg: #262625fd;
+    --var-bg: #3b3d3d;
     --var-bg-header: #696b68;
     --var-color-text-header-btn: #25ba9f;
     --var-color-text: #fcfcfc
@@ -31,5 +31,9 @@
 a{
     text-decoration: none;
     color: var(--var-color-text);
+}
+
+.margin-right{
+    margin-right: 1rem;
 }
 

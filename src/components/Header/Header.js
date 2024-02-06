@@ -15,28 +15,23 @@ const Header = () => {
 
     return (
         <main className={`${classes.wrap} flex`}>
-            {/*<p className={`${classes.name}`}>{t('prt-name')}</p>*/}
             <section>
                 <NameComponent/>
             </section>
 
-            <section>
+            <nav>
                 <UlComponent/>
-            </section>
+            </nav>
 
-            <section>
-                <select onChange={langHandler} className={`${classes.select}`}>
-                    <option value={"en"} className={`${classes.option}`}>EN</option>
-                    <option value={"ua"} className={`${classes.option}`}>UA</option>
-                </select>
-            </section>
+            <section className={`flex`}>
+                <article className={`margin-right`}>
+                    <select onChange={langHandler} className={`${classes.select}`}>
+                        <option value={"en"} className={`${classes.option}`}>EN</option>
+                        <option value={"ua"} className={`${classes.option}`}>UA</option>
+                    </select>
+                </article>
 
-            <section>
-                <button className={`${classes.btn} flex`}
-                        onClick={() => null}
-                >
-                    {t('prt-header-name')}
-                </button>
+                <button className={`${classes.btn} flex`}>{t('prt-header-name')}</button>
             </section>
         </main>
     );

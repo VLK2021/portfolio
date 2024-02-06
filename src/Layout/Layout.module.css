@@ -1,4 +1,52 @@
 .wrap {
     background: var(--var-bg);
-    height: 100rem;
+    min-height: 100vh;
+}
+
+.layoutBlock{
+    justify-content: space-between;
+
+}
+
+.imgBlock{
+    width: 35%;
+    max-height: 100vh;
+
+}
+
+.img {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.linkBlock {
+    width: 7%;
+    height: 100vh;
+    justify-content: end;
+}
+
+.circle {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 1px solid var(--var-bg-header);
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+}
+
+.circle:hover{
+    border: 3px solid var(--var-bg-header);
+}
+
+.git {
+    background: var(--var-bg);
+    color: snow;
+    font-size: 1.7rem;
+}
+
+.outletBlock {
+    width: 58%;
+    border-right: 1px solid var(--var-bg-header);
+    min-height: 100vh;
 }
