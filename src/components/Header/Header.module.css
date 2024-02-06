@@ -1,0 +1,57 @@
+.wrap {
+    width: 95%;
+    background: var(--var-bg-header);
+    height: 4rem;
+    position: fixed;
+    top: 0.2rem;
+    border-radius: 1rem;
+    justify-content: space-between;
+    padding: 0.7rem 1rem;
+}
+
+.btn {
+    width: 8.5rem;
+    padding: 0.7rem;
+    border: 1px solid var(--var-color-text-header-btn);
+    border-radius: 1rem;
+    color: var(--var-color-text-header-btn);
+    background: var(--var-bg-header);
+    font-weight: bold;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.btn:hover, .select:hover{
+    border: 3px solid var(--var-color-text-header-btn);
+    color: var(--var-color-text-header-btn);
+}
+
+/*.name{*/
+/*    color: var(--var-color-text);*/
+/*    font-weight: bold;*/
+/*    font-size: 1.5rem;*/
+/*}*/
+
+.select {
+    width: 3.5rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background: var(--var-bg);
+    color: var(--var-color-text);
+    font-weight: bold;
+    font-size: 1rem;
+    border: 1px solid var(--var-color-text-header-btn);
+    cursor: pointer;
+}
+
+.option {
+    padding: 0.5rem;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+
+
+
+
