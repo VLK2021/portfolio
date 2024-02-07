@@ -12,7 +12,7 @@ const UlComponent = () => {
     return (
         <main>
             <ul className={`${classes.ul} flex`}>
-                <NavLink to={`/main`} activeClassName={classes.active}>
+                <NavLink to={`/`} activeClassName={classes.active}>
                     <li className={`${classes.li}`}>{t("prt-header-ul-main")}</li>
                 </NavLink>
 

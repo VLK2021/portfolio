@@ -33,6 +33,12 @@ a{
     color: var(--var-color-text);
 }
 
+.active > li{
+    color: var(--var-color-text-header-btn);
+    text-decoration: underline;
+    font-style: normal;
+}
+
 .margin-right{
     margin-right: 1rem;
 }
