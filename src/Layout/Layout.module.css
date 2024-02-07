@@ -3,27 +3,31 @@
     min-height: 100vh;
 }
 
-.layoutBlock{
+.layoutBlock {
+    width: 100%;
     justify-content: space-between;
-
+    height: 100vh;
 }
 
-.imgBlock{
+.imgBlock {
     width: 35%;
-    max-height: 100vh;
-
+    position: fixed;
+    height: 100vh;
 }
 
 .img {
     width: 100%;
-    height: 100vh;
-
+    height: 100%;
 }
 
 .linkBlock {
     width: 7%;
     height: 100vh;
     justify-content: end;
+    position: fixed;
+    right: 0;
+    left: auto;
+    background: var(--var-bg);
 }
 
 .circle {
@@ -35,7 +39,7 @@
     margin-bottom: 1.5rem;
 }
 
-.circle:hover{
+.circle:hover {
     border: 3px solid var(--var-bg-header);
 }
 
@@ -48,5 +52,8 @@
 .outletBlock {
     width: 58%;
     border-right: 1px solid var(--var-bg-header);
-    min-height: 100vh;
+    min-height: 100rem;
+    margin-left: 35%; /* Ширина лівого блоку */
+    margin-right: 7%; /* Ширина правого блоку */
+    background: var(--var-bg);
 }

@@ -18,10 +18,10 @@ const Layout = () => {
                 <Header/>
             </section>
 
-            <div className={`${classes.layoutBlock} flex`}>
-                <figure className={`${classes.imgBlock}`}>
+            <section className={`${classes.layoutBlock} flex`}>
+                <section className={`${classes.imgBlock}`}>
                     <img src={foto} alt="my img" className={`${classes.img}`}/>
-                </figure>
+                </section>
 
                 <section className={`${classes.outletBlock} flex-direction`}>
                     <Outlet/>
@@ -43,7 +43,7 @@ const Layout = () => {
                         <FaLinkedinIn className={classes.git}/>
                     </a>
                 </section>
-            </div>
+            </section>
         </main>
     );
 };
