@@ -8,6 +8,16 @@
   "prt-header-ul-portfolio": "Portfolio",
   "prt-header-ul-contacts": "Contacts",
   "prt-skills-title": "Skills",
-  "prt-skills-second-title": "Development with"
+  "prt-skills-second-title": "Development with",
+  "prt-language-title": "Languages",
+  "prt-language-second-title": "I speak,write and read",
+  "prt-language-single-title": "Ukrainian",
+  "prt-language-second-single-title": "I speak my native language fluently",
+  "prt-language-single-title1": "English",
+  "prt-language-second-single-title1": "Proficiency at B1 level: I read, write, speak",
+  "prt-language-single-title2": "Polish",
+  "prt-language-second-single-title2": "I understand everything,I read fluently and speak",
+  "prt-language-single-title3": "Italian",
+  "prt-language-second-single-title3": "I understand, I read, speak"
 
 }

@@ -8,5 +8,15 @@
   "prt-header-ul-portfolio": "Портфоліо",
   "prt-header-ul-contacts": "Контакти",
   "prt-skills-title": "Навики",
-  "prt-skills-second-title": "Розробка з"
+  "prt-skills-second-title": "Розробка з",
+  "prt-language-title": "Знання мов",
+  "prt-language-second-title": "Розмовляю пишу та читаю",
+  "prt-language-single-title": "Українська",
+  "prt-language-second-single-title": "Рідна мова, розмовляю вільно",
+  "prt-language-single-title1": "Англійська",
+  "prt-language-second-single-title1": "Володіння на рівні В1 читаю, пишу, говорю",
+  "prt-language-single-title2": "Польська",
+  "prt-language-second-single-title2": "Розумію все, читаю вільно, говорю",
+  "prt-language-single-title3": "Італійська",
+  "prt-language-second-single-title3": "Розумію, читаю, говорю"
 }

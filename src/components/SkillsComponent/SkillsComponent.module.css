@@ -4,13 +4,14 @@
     color: var(--var-color-text);
     padding: 0 3rem;
     align-items: start;
-    margin-top: 20rem;
+    margin-top: 38rem;
 }
 
 .title {
     font-weight: bold;
     font-size: 3rem;
     text-transform: uppercase;
+    margin-right: 2rem;
 }
 
 .secondTitle {
@@ -22,7 +23,6 @@
 .skillsBlock {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
     justify-content: space-between;
     align-items: center;
     margin-top: 3rem;

@@ -1,0 +1,12 @@
+.wrap {
+    width: 100%;
+    height: 7rem;
+    text-align: center;
+}
+
+.body {
+    font-style: italic;
+    margin-top: 1rem;
+    color: var(--var-color-text);
+}
+

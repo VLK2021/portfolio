@@ -1,5 +1,41 @@
 .wrap {
-    color: snow;
-    height: 50rem;
-    padding-top: 20rem;
+    width: 100%;
+    min-height: 100vh;
+    color: var(--var-color-text);
+    padding: 0 3rem;
+    align-items: start;
+    margin-top: 2rem;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-right: 2rem;
+}
+
+.secondTitle {
+    color: var(--var-color-text-header-btn);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.languageBlock{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.languageBlockSingleWrap {
+    width: 40%;
+    height: 7rem;
+    align-items: start;
+    justify-content: center;
+}
+
+.circleBlock{
+justify-content: space-evenly;
 }
