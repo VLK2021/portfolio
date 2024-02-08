@@ -1,0 +1,14 @@
+.wrap {
+    width: 100%;
+    height: 18rem;
+    align-items: start;
+    justify-content: start;
+}
+
+.colorBackIcon {
+    color: var(--var-color-text-header-btn);
+}
+
+.listStyles li::marker {
+    color: var(--var-color-text-header-btn);
+}

@@ -1,7 +1,4 @@
 import React from 'react';
-import {FaGithub} from "react-icons/fa6";
-import {PiTelegramLogo} from "react-icons/pi";
-import {FaLinkedinIn} from "react-icons/fa";
 import {Outlet} from 'react-router-dom';
 
 import classes from "./Layout.module.css";

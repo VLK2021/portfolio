@@ -31,8 +31,8 @@
 
 .outletBlock {
     width: 58%;
+    height: auto;
     border-right: 1px solid var(--var-bg-header);
-    margin-left: 35%; /* Ширина лівого блоку */
-    margin-right: 7%; /* Ширина правого блоку */
+    margin: 0 7% 0 35%;
     background: var(--var-bg);
 }

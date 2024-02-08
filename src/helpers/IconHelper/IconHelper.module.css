@@ -1,0 +1,11 @@
+.wrap {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 1px solid var(--var-bg-header);
+    box-sizing: border-box;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+
