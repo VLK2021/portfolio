@@ -33,6 +33,10 @@ a{
     color: var(--var-color-text);
 }
 
+a:hover {
+    color: var(--var-color-text-header-btn);
+}
+
 .active > li{
     color: var(--var-color-text-header-btn);
     text-decoration: underline;
