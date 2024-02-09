@@ -18,6 +18,14 @@
   "prt-language-single-title2": "Polish",
   "prt-language-second-single-title2": "I understand everything,I read fluently and speak",
   "prt-language-single-title3": "Italian",
-  "prt-language-second-single-title3": "I understand, I read, speak"
+  "prt-language-second-single-title3": "I understand, I read, speak",
+  "prt-contacts-title": "Contacts",
+  "prt-contacts-second-title": "Let's talk",
+  "prt-contacts-info-tel": "Phone:",
+  "prt-contacts-info-email": "E-mail:",
+  "prt-contacts-info-linkedIn": "LinkedIn:",
+  "prt-contacts-info-telegram": "Telegram:",
+  "prt-contacts-info-instagram": "Instagram:",
+  "prt-contacts-info-github": "GitHub:"
 
 }
