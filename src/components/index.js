@@ -6,3 +6,4 @@ export * from './LanguageComponent/LanguageComponent';
 export * from './PortfolioComponent/PortfolioComponent';
 export * from './ContactsComponent/ContactsComponent';
 export * from './LinksComponents/LinksComponents';
+export * from './framerMotionComponents/MoleculeIconComponent/MoleculeIconComponent';

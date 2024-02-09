@@ -45,7 +45,7 @@ const ContactsComponent = () => {
 
                 <p className={`${classes.contactsInfo} width`}>{t('prt-contacts-info-instagram')}
                     <span className={`${classes.contactsInfoData}`}>
-                        <a href="https://instagram.com/volodumur_k_2023" target={'_blank'}>volodumur_k_2023</a>
+                        <a href="https://www.instagram.com/volodumur_k_2023/" target={'_blank'}>volodumur_k_2023</a>
                     </span>
                 </p>
 
