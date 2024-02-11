@@ -1,5 +1,51 @@
 .wrap {
-    color: snow;
-    height: 50rem;
-    padding-top: 20rem;
+    width: 100%;
+    min-height: auto;
+    color: var(--var-color-text);
+    padding: 0 3rem;
+    align-items: start;
+    margin-top: 20rem;
 }
+
+.title {
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-right: 2rem;
+}
+
+.secondTitle {
+    color: var(--var-color-text-header-btn);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+.margin {
+    margin-top: 3rem;
+}
+
+.marginText {
+    margin-top: 1.5rem;
+}
+
+a {
+    margin-left: 0.5rem;
+}
+
+.colorText {
+    color: var(--var-bg-header);
+}
+
+.colorText:hover {
+    color: var(--var-color-text-header-btn);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+
