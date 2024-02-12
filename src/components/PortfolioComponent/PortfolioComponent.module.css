@@ -1,5 +1,33 @@
 .wrap {
-    color: snow;
-    height: 50rem;
-    padding-top: 20rem;
+    width: 100%;
+    min-height: auto;
+    color: var(--var-color-text);
+    padding: 0 3rem;
+    align-items: start;
+    margin-top: 0;
 }
+
+.title {
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-right: 2rem;
+}
+
+.secondTitle {
+    color: var(--var-color-text-header-btn);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.projectsBlock {
+    margin-top: 3rem;
+}
+
+.ulPortfolio li {
+    list-style: none;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
