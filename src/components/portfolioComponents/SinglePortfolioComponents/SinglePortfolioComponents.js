@@ -9,8 +9,14 @@ const SinglePortfolioComponents = (props) => {
 
 
     return (
-        <main className={`${classes.wrap} flex`}>
+        <main className={`${classes.wrap} flex-direction`}>
+            <section className={`${classes.imgBlock} width`}>
+                <img src={image} alt={`Project: ${name}`}/>
+            </section>
 
+            <p className={`${classes.name} flex`}>{name}</p>
+
+            <p className={`${classes.technologies} flex`}>{technologies}</p>
         </main>
     );
 };
