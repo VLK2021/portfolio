@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import { RiCloseLine } from "react-icons/ri";
 
 import classes from "./PopUpComponent.module.css";
 
