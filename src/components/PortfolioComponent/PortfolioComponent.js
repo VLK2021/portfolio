@@ -1,7 +1,7 @@
 import React from 'react';
 import {GiGooeyMolecule} from "react-icons/gi";
 import {useTranslation} from "react-i18next";
-import {NavLink, Outlet} from "react-router-dom";
+import {Outlet} from "react-router-dom";
 
 import classes from "./PortfolioComponent.module.css";
 import {IconRotate} from "../framerMotionComponents";

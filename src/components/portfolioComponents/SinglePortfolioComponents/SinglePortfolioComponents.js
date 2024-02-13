@@ -1,22 +1,39 @@
-import React from 'react';
+import React, {useState} from 'react';
+import {BsArrowsFullscreen} from "react-icons/bs";
 
 import classes from "./SinglePortfolioComponents.module.css";
-
+import {PopUpComponent} from "../PopUpComponent/PopUpComponent";
 
 
 const SinglePortfolioComponents = (props) => {
-    const {obj: {name, technologies, image, link}} = props;
+    const {obj: {name, technologies, image, link, video}} = props;
+
+    const [isClicked, setIsClicked] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
+
+    const handleClick = () => {
+        setIsOpen(true);
+    }
 
 
     return (
         <main className={`${classes.wrap} flex-direction`}>
-            <section className={`${classes.imgBlock} width`}>
+            <section className={`${classes.imgBlock} width`} onMouseOver={() => setIsClicked(true)}
+                     onMouseOut={() => setIsClicked(false)}>
                 <img src={image} alt={`Project: ${name}`}/>
+
+                {isClicked && (
+                    <article className={`${classes.icon} flex`}>
+                        <BsArrowsFullscreen onClick={handleClick}/>
+                    </article>
+                )}
             </section>
 
             <p className={`${classes.name} flex`}>{name}</p>
 
             <p className={`${classes.technologies} flex`}>{technologies}</p>
+
+            {isOpen && <PopUpComponent setIsOpen={setIsOpen} obj={props.obj}/>}
         </main>
     );
 };

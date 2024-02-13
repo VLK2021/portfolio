@@ -5,3 +5,4 @@ export * from './JavascriptPortfolioComponent/JavascriptPortfolioComponent';
 export * from './FullstackPortfolioComponent/FullstackPortfolioComponent';
 export * from './UlPortfolioComponent/UlPortfolioComponent';
 export * from './SinglePortfolioComponents/SinglePortfolioComponents';
+export * from './PopUpComponent/PopUpComponent';
