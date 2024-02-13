@@ -6,7 +6,7 @@ import {PopUpComponent} from "../PopUpComponent/PopUpComponent";
 
 
 const SinglePortfolioComponents = (props) => {
-    const {obj: {name, technologies, image, link, video}} = props;
+    const {obj: {name, technologies, image}} = props;
 
     const [isClicked, setIsClicked] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
