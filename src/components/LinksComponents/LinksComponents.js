@@ -9,7 +9,7 @@ import classes from "./LinksComponents.module.css";
 const LinksComponents = () => {
 
     return (
-        <main className={`${classes.wrap} flex-direction`}>
+        <main className={`${classes.wrap}`}>
             <a href={'https://github.com/VLK2021'} target={'_blank'} rel="noreferrer"
                className={`${classes.circle} flex`}>
                 <FaGithub className={classes.git}/>

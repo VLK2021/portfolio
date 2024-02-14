@@ -1,12 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
+import {useTranslation} from "react-i18next";
+import {IoMenu} from "react-icons/io5";
 
 import classes from "./Header.module.css";
-import {useTranslation} from "react-i18next";
-import {NameComponent, UlComponent} from "../headerComponents";
+import {NameComponent, UlComponent, UlMediaComponent} from "../headerComponents";
 
 
 const Header = () => {
     const {t, i18n} = useTranslation();
+
+    const [showMenu, setShowMenu] = useState(false);
 
     const langHandler = (e) => {
         i18n.changeLanguage(e.target.value === 'ua' ? 'ua' : 'en')
@@ -22,6 +25,15 @@ const Header = () => {
             <nav>
                 <UlComponent/>
             </nav>
+
+            <section className={`${classes.menuIcon} flex`}>
+                <IoMenu onClick={() => setShowMenu(!showMenu)}/>
+
+                {showMenu &&
+                <article className={`${classes.menuMedia}`}>
+                    <UlMediaComponent setShowMenu={setShowMenu}/>
+                </article>}
+            </section>
 
             <section className={`flex`}>
                 <article className={`margin-right`}>
