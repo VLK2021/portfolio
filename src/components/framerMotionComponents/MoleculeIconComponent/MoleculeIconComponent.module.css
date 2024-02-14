@@ -4,3 +4,9 @@
     top: 18%;
     right: 18%;
 }
+
+@media screen and (max-width: 768px){
+    .wrap {
+        display: none;
+    }
+}

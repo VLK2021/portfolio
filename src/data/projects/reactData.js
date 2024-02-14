@@ -1,6 +1,15 @@
 const reactData = [
     {
         id: 'rd1',
+        name: 'Movies',
+        technologies: 'React, Redux Toolkit, Axios, React Hook Form, i18next, Bootstrap',
+        image: '/projectFotos/movieFoto.jpg',
+        link: 'https://movie-db-flax.vercel.app/',
+        video: '/projectVideos/movieData.mp4',
+        code: 'https://github.com/VLK2021/movie_db'
+    },
+    {
+        id: 'rd2',
         name: 'Calculator',
         technologies: 'React, React Hooks',
         image: '/projectFotos/calculator.jpg',
@@ -9,7 +18,7 @@ const reactData = [
         code: 'https://github.com/VLK2021/calculator'
     },
     {
-        id: 'rd2',
+        id: 'rd3',
         name: 'Weather',
         technologies: 'React, Redux Toolkit, Axios, React Hook Form',
         image: '/projectFotos/weather.jpg',
@@ -18,7 +27,7 @@ const reactData = [
         code: 'https://github.com/VLK2021/weather-react/tree/master'
     },
     {
-        id: 'rd3',
+        id: 'rd4',
         name: 'Currency Exchange',
         technologies: 'React, Redux Toolkit, Axios, React Hook Form',
         image: '/projectFotos/exchange.jpg',

@@ -20,7 +20,7 @@ const MainComponent = () => {
                 {t('prt-main-text')}
             </p>
 
-            <NavLink to={'/contacts'}>
+            <NavLink to={'/contacts'} className={`${classes.btnBlock}`}>
                 <button className={`${classes.btn} flex`}>
                     {t('prt-main-btn')}
                 </button>

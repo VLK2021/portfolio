@@ -1,10 +1,9 @@
 .wrap {
     background: var(--var-bg);
-    min-height: 100vh;
+    /*min-height: 100vh;*/
 }
 
 .layoutBlock {
-    width: 100%;
     justify-content: space-between;
     height: 100vh;
 }
@@ -35,4 +34,38 @@
     border-right: 1px solid var(--var-bg-header);
     margin: 0 7% 0 35%;
     background: var(--var-bg);
+}
+
+@media screen and (max-width: 768px) {
+    .layoutBlock {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 10rem;
+        margin-top: 20rem;
+    }
+
+    .imgBlock {
+        width: 100%;
+        position: static;
+        height: 28rem;
+    }
+
+    .img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .outletBlock {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .linkBlock {
+        width: 100%;
+        position: static;
+        height: auto;
+    }
 }

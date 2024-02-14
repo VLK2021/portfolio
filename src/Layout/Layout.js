@@ -15,7 +15,7 @@ const Layout = () => {
                 <Header/>
             </section>
 
-            <section className={`${classes.layoutBlock} flex`}>
+            <section className={`${classes.layoutBlock} flex width`}>
                 <section className={`${classes.imgBlock}`}>
                     <img src={foto} alt="my img" className={`${classes.img}`}/>
                 </section>

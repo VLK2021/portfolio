@@ -51,6 +51,41 @@
     font-size: 0.8rem;
 }
 
+@media screen and (max-width: 768px){
+    .wrap {
+        width: 100%;
+        height: 2.5rem;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .select {
+        width: 3rem;
+        height: 1rem;
+        border-radius: 1rem;
+        font-weight: bold;
+        font-size: 0.5rem;
+        cursor: pointer;
+    }
+
+    .select:hover{
+        border: 2px solid var(--var-color-text-header-btn);
+        color: var(--var-color-text-header-btn);
+    }
+
+    .option {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 0.5rem;
+    }
+
+    .btn {
+        display: none;
+    }
+}
+
 
 
 
