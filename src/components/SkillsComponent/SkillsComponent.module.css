@@ -38,6 +38,7 @@
     .wrap {
         height: auto;
         margin-top: 1rem;
+        padding: 0 0.5rem;
     }
 
     .title {
