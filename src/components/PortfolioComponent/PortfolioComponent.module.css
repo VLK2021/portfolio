@@ -33,5 +33,18 @@
 
 
 @media screen and (max-width: 768px){
+    .wrap {
+        height: auto;
+        margin-top: 1rem;
+        padding: 0 0.5rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .projectsBlock {
+        margin-top: 2rem;
+    }
 
 }

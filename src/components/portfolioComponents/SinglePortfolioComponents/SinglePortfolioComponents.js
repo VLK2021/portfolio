@@ -33,7 +33,11 @@ const SinglePortfolioComponents = (props) => {
 
             <p className={`${classes.technologies} flex`}>{technologies}</p>
 
-            {isOpen && <PopUpComponent setIsOpen={setIsOpen} obj={props.obj}/>}
+            <article className={`width`}>
+                {isOpen &&
+                <PopUpComponent setIsOpen={setIsOpen} obj={props.obj}/>
+                }
+            </article>
         </main>
     );
 };

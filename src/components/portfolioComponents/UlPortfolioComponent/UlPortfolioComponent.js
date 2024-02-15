@@ -6,6 +6,7 @@ import classes from "./UlPortfolioComponent.module.css";
 
 const UlPortfolioComponent = () => {
 
+
     return (
         <ul className={`${classes.ulPortfolio} flex width`}>
             <NavLink to={'/portfolio/all'}>
