@@ -45,9 +45,12 @@ const Header = () => {
                 <IoMenu onClick={() => setShowMenu(!showMenu)}/>
 
                 {showMenu &&
-                <article className={`${classes.menuMedia}`}>
+                <article className={`${classes.menuMedia} flex-direction`}>
                     <UlMediaComponent setShowMenu={setShowMenu}/>
-                </article>}
+
+                    <button className={`${classes.btnMedia} flex`} onClick={handleDownload}>{t('prt-header-name')}</button>
+                </article>
+                }
             </section>
 
             <section className={`flex`}>
