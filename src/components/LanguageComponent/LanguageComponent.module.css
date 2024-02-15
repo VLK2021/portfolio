@@ -20,7 +20,7 @@
     font-weight: bold;
 }
 
-.languageBlock{
+.languageBlock {
     display: flex;
     flex-wrap: wrap;
     gap: 4rem;
@@ -36,6 +36,30 @@
     justify-content: center;
 }
 
-.circleBlock{
-justify-content: space-evenly;
+.circleBlock {
+    justify-content: space-evenly;
+}
+
+
+@media screen and (max-width: 768px) {
+    .wrap {
+        height: auto;
+        margin-top: 1rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .languageBlock {
+        margin-top: 2rem;
+        justify-content: space-around;
+    }
+
+    .languageBlockSingleWrap {
+        width: 10rem;
+        height: 10rem;
+        align-items: start;
+    }
+
 }

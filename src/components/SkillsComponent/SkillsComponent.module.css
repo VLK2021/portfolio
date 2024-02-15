@@ -34,4 +34,27 @@
     align-items: start;
 }
 
+@media screen and (max-width: 768px) {
+    .wrap {
+        height: auto;
+        margin-top: 1rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .skillsBlock {
+        margin-top: 2rem;
+        justify-content: space-around;
+    }
+
+    .skillsBlockSingleWrap {
+        width: 10rem;
+        height: 18rem;
+        align-items: start;
+    }
+
+}
+
 

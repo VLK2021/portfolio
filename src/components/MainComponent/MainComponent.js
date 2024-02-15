@@ -18,7 +18,7 @@ const MainComponent = () => {
 
             <section className={`flex`}>
                 <p className={`${classes.title}`}>Front-End Developer</p>
-                <span><IconRotate icon={SiMoleculer}/></span>
+                <span className={`${classes.MainIconTitle}`}><IconRotate icon={SiMoleculer}/></span>
             </section>
 
             <p className={`${classes.info}`}>

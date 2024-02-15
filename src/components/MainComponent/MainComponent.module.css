@@ -19,7 +19,7 @@
     left: 28%;
 }
 
-span {
+.MainIconTitle {
     display: none;
 }
 
@@ -64,13 +64,14 @@ span {
         flex-direction: column;
         justify-content: center;
         align-items: start;
+        min-height: 40vh;
     }
 
     .name {
         display: none;
     }
 
-    span {
+    .MainIconTitle {
         display: block;
         margin: 0.5rem 0 0 0.5rem;
     }

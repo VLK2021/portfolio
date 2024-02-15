@@ -1,6 +1,5 @@
 .wrap {
     width: 100%;
-    min-height: auto;
     color: var(--var-color-text);
     padding: 0 3rem;
     align-items: start;
@@ -46,6 +45,34 @@ a {
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 768px){
+    .wrap {
+        min-height: auto;
+        padding: 0 3rem;
+        align-items: start;
+        margin-top: 0;
+        box-sizing: border-box;
+        height: auto;
+    }
+
+    .title {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        margin-right: 2rem;
+    }
+
+    .secondTitle {
+        color: var(--var-color-text-header-btn);
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .margin {
+        margin-top: 2rem;
+    }
+
 }
 
 
