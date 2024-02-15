@@ -1,15 +1,14 @@
 .wrap {
     width: 100%;
-    min-height: 100vh;
     color: var(--var-color-text);
     padding: 0 3rem;
     align-items: start;
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 
 .title {
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.8rem;
     text-transform: uppercase;
     margin-right: 2rem;
 }
@@ -64,7 +63,51 @@
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
+    .wrap {
+        height: auto;
+        margin-top: 2rem;
+        padding: 0.2rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .secondTitle {
+        font-size: 1rem;
+    }
+
+    .contactsBlock {
+        width: 99%;
+        height: auto;
+        padding: 0.5rem;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
+    .contactsBlockTitle {
+        font-size: 1.5rem;
+    }
+
+    .contactsBlockTitleSecond {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+
+    .contactsInfo {
+        width: 100%;
+        font-size: 1.1rem;
+        color: var(--var-color-text-header-btn);
+        margin-bottom: 0.5rem;
+    }
+
+    .contactsInfoData {
+        width: 80%;
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
 
 }
 
