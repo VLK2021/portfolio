@@ -15,6 +15,21 @@ const Header = () => {
         i18n.changeLanguage(e.target.value === 'ua' ? 'ua' : 'en')
     }
 
+    const handleDownload = () => {
+        // Встановлюємо шлях до PDF-файлу у папці public
+        const pdfFilePath = '/files/KostiukVolodymyrCV.pdf';
+
+        // Створюємо посилання для завантаження файлу
+        const downloadLink = document.createElement('a');
+        downloadLink.href = pdfFilePath;
+        downloadLink.download = 'KostiukVolodymyrCV.pdf';
+
+        // Додаємо посилання до документу і клікаємо на нього
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+        document.body.removeChild(downloadLink);
+    };
+
 
     return (
         <main className={`${classes.wrap} flex`}>
@@ -43,7 +58,7 @@ const Header = () => {
                     </select>
                 </article>
 
-                <button className={`${classes.btn} flex`}>{t('prt-header-name')}</button>
+                <button className={`${classes.btn} flex`} onClick={handleDownload}>{t('prt-header-name')}</button>
             </section>
         </main>
     );
