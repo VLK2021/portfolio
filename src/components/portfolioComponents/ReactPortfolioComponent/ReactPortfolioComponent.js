@@ -7,6 +7,7 @@ import {SinglePortfolioComponents} from "../SinglePortfolioComponents/SinglePort
 
 const ReactPortfolioComponent = () => {
 
+
     return (
         <main className={`${classes.wrap} width`}>
             {reactData.map(obj => <SinglePortfolioComponents key={obj.id} obj={obj}/>)}
