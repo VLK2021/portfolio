@@ -10,6 +10,15 @@ const reactData = [
     },
     {
         id: 'rd2',
+        name: 'Online Shop',
+        technologies: 'React, Redux Toolkit, Axios, React Hook Form',
+        image: '/projectFotos/onlineShopReact.jpg',
+        link: 'https://shop-react-eight.vercel.app/',
+        video: '/projectVideos/onlineShopReactVideo.mp4',
+        code: 'https://github.com/VLK2021/shop-react'
+    },
+    {
+        id: 'rd3',
         name: 'Calculator',
         technologies: 'React, React Hooks',
         image: '/projectFotos/calculator.jpg',
@@ -18,7 +27,7 @@ const reactData = [
         code: 'https://github.com/VLK2021/calculator'
     },
     {
-        id: 'rd3',
+        id: 'rd4',
         name: 'Weather',
         technologies: 'React, Redux Toolkit, Axios, React Hook Form',
         image: '/projectFotos/weather.jpg',
@@ -27,7 +36,7 @@ const reactData = [
         code: 'https://github.com/VLK2021/weather-react/tree/master'
     },
     {
-        id: 'rd4',
+        id: 'rd5',
         name: 'Currency Exchange',
         technologies: 'React, Redux Toolkit, Axios, React Hook Form',
         image: '/projectFotos/exchange.jpg',
