@@ -1,8 +1,9 @@
 .wrap {
     width: 100%;
-    min-height: auto;
+    min-height:100vh;
     color: var(--var-color-text);
     padding: 0 3rem;
+    justify-content: start;
     align-items: start;
     margin-top: 35rem;
 }
