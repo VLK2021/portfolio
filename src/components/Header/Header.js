@@ -17,12 +17,12 @@ const Header = () => {
 
     const handleDownload = () => {
         // Встановлюємо шлях до PDF-файлу у папці public
-        const pdfFilePath = '/files/KostiukVolodymyrCV.pdf';
+        const pdfFilePath = '/files/KostiukVolodymyrCVс.pdf';
 
         // Створюємо посилання для завантаження файлу
         const downloadLink = document.createElement('a');
         downloadLink.href = pdfFilePath;
-        downloadLink.download = 'KostiukVolodymyrCV.pdf';
+        downloadLink.download = 'KostiukVolodymyrCVс.pdf';
 
         // Додаємо посилання до документу і клікаємо на нього
         document.body.appendChild(downloadLink);
