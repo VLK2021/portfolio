@@ -17,7 +17,7 @@ const Header = () => {
 
     const handleDownload = () => {
         // Встановлюємо шлях до PDF-файлу у папці public
-        const pdfFilePath = '/files/KostiukVolodymyrCVс.pdf';
+        const pdfFilePath = '/files/KostiukVolodymyrCV.pdf';
 
         // Створюємо посилання для завантаження файлу
         const downloadLink = document.createElement('a');
