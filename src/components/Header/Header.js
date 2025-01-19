@@ -22,7 +22,7 @@ const Header = () => {
         // Створюємо посилання для завантаження файлу
         const downloadLink = document.createElement('a');
         downloadLink.href = pdfFilePath;
-        downloadLink.download = 'KostiukVolodymyrCVс.pdf';
+        downloadLink.download = 'KostiukVolodymyrCV.pdf';
 
         // Додаємо посилання до документу і клікаємо на нього
         document.body.appendChild(downloadLink);
