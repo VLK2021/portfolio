@@ -20,6 +20,7 @@ const Layout = () => {
                     <img src={foto} alt="my img" className={`${classes.img}`}/>
                 </section>
 
+
                 <section className={`${classes.outletBlock} flex-direction`}>
                     <Outlet/>
                 </section>
